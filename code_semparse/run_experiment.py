@@ -23,7 +23,7 @@ def get_args():
     args.add_argument("--dataset_name", type=str, default="geo880")
     args.add_argument("--overnight_domain", type=str)
     args.add_argument("--split_name", type=str, default="tmcd_1")
-    args.add_argument("--eval_set_name", type=str, default="valid")
+    args.add_argument("--eval_set_name", type=str, default="test")
     args.add_argument("--n_training_demonstrations", type=int, default=3)
     args.add_argument("--n_test_samples", type=int, default=60)
     args.add_argument("--model", type=str, default="gpt-3.5-turbo")
